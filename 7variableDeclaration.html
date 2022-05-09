@@ -1,0 +1,18 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var fullName = "salman";
+            document.getElementById("demo").innerHTML=fullName;
+            console.log(typeof fullName);
+            setTimeout(()=>{
+                fullName = "rajesh";
+                document.getElementById("demo").innerHTML=fullName;
+            },3000)
+
+        </script>
+    </body>
+</html>
