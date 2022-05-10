@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Events</title>
+    </head>
+    <body>
+        <input type="text" id="one"/><br/>
+        <input type="text" id="two"/><br/>
+        <button onClick="addition()">Add</button>
+        <div>Result:<span id="add"></span></div>
+    </body>
+    <script>
+        function addition(){
+            var a = document.getElementById("one").value;
+            var b = document.getElementById("two").value;
+            var result = Number(a)+Number(b);
+            document.getElementById("add").innerHTML = result;
+
+        }
+        console.log("1"+"2");
+    </script>
+</html>
