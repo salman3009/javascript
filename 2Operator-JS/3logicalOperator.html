@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Logical Operator</title>
+    </head>
+    <body>
+          <div>
+              Age: 48<br/>
+              State:Tamil Nadu<br/>
+              Is Eligible for Scheme:<span id="and"></span>
+
+          </div>
+
+          <div>
+            Age: 48<br/>
+            State:Kerala<br/>
+            Is Eligible for Scheme:<span id="or"></span>
+
+        </div>
+
+        <div>
+            Age: 11<br/>
+            State:Tamil Nadu<br/>
+            Is Eligible for Scheme:<span id="not"></span>
+
+        </div>
+    </body>
+
+    <script>
+        var age = 48;
+        var state = "Tamil Nadu";
+        var result = (age>18) && (state==="Tamil Nadu");
+                    // T && T = T 
+                    //T && F = F 
+                    //F && T = F
+                    //F && F = F
+        document.getElementById("and").innerHTML = result;
+    </script>
+
+<script>
+    var age = 48;
+    var state = "Kerala";
+    var result = (age>18) || (state==="Tamil Nadu");
+                // T || T = T 
+                //T || F = T
+                //F || T = T
+                //F || F = F
+    document.getElementById("or").innerHTML = result;
+</script>
+
+
+<script>
+    var age = 11;
+    var state = "Tamil Nadu";
+    var result = !(age>18) && (state==="Tamil Nadu");
+                // T && T = T 
+                //T && F = F 
+                //F && T = F
+                //F && F = F
+    document.getElementById("not").innerHTML = !result;
+</script>
+
+</html>
