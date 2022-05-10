@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Arithmetic operator</title>
+    </head>
+    <body>
+        <div>a:5</div>
+        <div>b:10</div>
+        Addition:<div id="addition"></div>
+        Subtraction:<div id="subtraction"></div>
+        Division:<div id="division"></div>
+        Multiplication:<div id="multiplication"></div>
+    </body>
+</html>
+
+<script>
+    var a = 5;
+    var b = 10;
+    var addition = a+b;
+    document.getElementById("addition").innerHTML = addition;
+    var subtraction = a - b;
+    document.getElementById("subtraction").innerHTML = subtraction;
+    var division = a / b;
+    document.getElementById("division").innerHTML = division;
+    var multiplication = a * b;
+    document.getElementById("multiplication").innerHTML = multiplication;
+    a = a + 1;
+    console.log(a);
+    a++;
+    ++a;
+    console.log(a);
+    a--;
+    --a;
+    a--;
+    console.log(a);
+
+</script>
+
+
+
+
