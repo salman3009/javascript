@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Comparison</title>
+    </head>
+    <body>
+        <div>a:5</div>
+        <div>b:10</div>
+        <div>Greater than symbol:<span id="greater"></span></div>
+        <div>less than symbol:<span id="less"></span></div>
+
+        <br/>
+        <div>a:5</div>
+        <div>b:5</div>
+        <div>GreaterEqual than symbol:<span id="greaterEqual"></span></div>
+        <div>lessEqual than symbol:<span id="lessEqual"></span></div>
+
+        <br/>
+        <div>a:5</div>
+        <div>b:"5"</div>
+        <div>double Equal to  symbol:<span id="double"></span></div>
+        <div>Triple Equal to  symbol:<span id="triple"></span></div>
+
+        
+        <br/>
+        <div>a:5</div>
+        <div>b:10</div>
+        <div>Not Equal to  symbol:<span id="notEqual"></span></div>
+      
+
+
+    </body>
+</html>
+
+<script>
+    var a = 5;
+    var b = 10;
+    var result = a>b;
+    document.getElementById("greater").innerHTML = result;
+    result = a<b;
+    document.getElementById("less").innerHTML = result;  
+</script>
+
+
+
+<script>
+    var a = 5;
+    var b = 5;
+    var result = a>=b;
+    document.getElementById("greaterEqual").innerHTML = result;
+    result = a<=b;
+    document.getElementById("lessEqual").innerHTML = result;  
+</script>
+
+
+<script>
+    var a = 5;
+    var b = "5";
+    var result = a==b;
+    document.getElementById("double").innerHTML = result;
+    result = a===b;
+    document.getElementById("triple").innerHTML = result;  
+</script>
+
+
+<script>
+    var a = 5;
+    var b = 10;
+    var result = a!=b;
+    document.getElementById("notEqual").innerHTML = result;
+    a=5;
+    b=5;
+    result = a!=b;
+    document.getElementById("notEqual").innerHTML = result;
+  
+</script>
