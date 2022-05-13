@@ -1,0 +1,169 @@
+<!-- <script>
+//convert string into array
+var fullName = "salman";
+var result = fullName.split('');
+console.log(result);
+</script> -->
+
+
+<!-- <script>
+    //convert string into array
+    var fullName = "salman is a developer";
+    var result = fullName.split(' ');
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+var result=["s","a","l","m","a","n"];
+result = result.toString();
+console.log(result);
+</script>
+
+
+<script>
+    var stringArray=["s","a","l","m","a","n"];
+    result = stringArray.join('');
+    console.log(result);
+    result = stringArray.join('-');
+    console.log(result);
+</script> -->
+
+
+
+
+<!-- 
+<script>
+    var result=[44,55,11,3];
+    console.log(result);
+    result.push(78);
+    result.push(44);
+    console.log(result);
+    result.pop();
+    console.log(result);
+</script> -->
+    
+
+<!-- <script>
+    var result=[44,55,11,3];
+    console.log(result);
+    result.unshift(78);
+    result.unshift(22);
+    console.log(result);
+    result.shift();
+    console.log(result);
+</script> -->
+
+
+ <!-- <script>
+    //slice will not change the original array
+    var result=[44,55,11,3];
+    // console.log(result);
+    var detailsSlice= result.slice(2,3);
+    //first value is index
+    //second value is length
+    console.log(detailsSlice);
+    // console.log(result);
+</script>  -->
+
+
+<!-- <script>
+    //splice will change the original array
+    var result=[44,55,11,3,77,55,12];
+//    console.log(result);
+    var detailsSlice= result.splice(6,1);
+    //first argument is index
+    //second argument how many value to be deleted 
+    console.log(detailsSlice);
+    console.log(result);
+</script> -->
+
+
+ <!-- <script>
+    //slice will not change the original array
+    var result=[44,55,11,3];
+    // console.log(result);
+    var detailsSlice= result.slice(2,3);
+    console.log(detailsSlice);
+    // console.log(result);
+</script>  -->
+
+
+<!-- <script>
+    //concat
+    var result=[44,55,11,3];
+     var details=[66,77,44,11];
+     var merge = result.concat(details);
+     console.log(merge);
+</script> -->
+
+<!-- <script>
+    //concat
+    var result=[44,55,11,3];
+     var finalResult = result.indexOf(55);
+     console.log(finalResult);
+</script> -->
+
+
+<!-- <script>
+    //concat
+    var result=[44,55,11,3];
+     var finalResult = result.includes(3);
+     console.log(finalResult);
+</script> -->
+
+
+<!-- <script>
+    //concat
+    var result=[44,55,11,3];
+     var finalResult = result.includes(3);
+     console.log(finalResult);
+</script> -->
+
+
+<!-- <script>
+    //concat
+    var result;
+     var finalResult = Array.isArray(result) && result.push(3);
+     console.log(finalResult);
+</script> -->
+
+
+<!-- <script>
+    //callback function 
+     function addition(a,b,result){
+         var final = a+b;
+         result(final);
+
+     }
+
+     function result(input){
+         console.log(input);
+     }
+
+     addition(33,33,result);
+</script> -->
+
+
+<!-- <script>
+    //callback function 
+     var result =[55,52,1,3,4];
+     var ascendingOrder = result.sort(function(a,b){
+         return a-b;
+     });
+     console.log(ascendingOrder);
+     var descendingOrder = result.sort(function(a,b){
+         return b-a;
+     });
+     console.log(descendingOrder);
+</script> -->
+
+
+<script>
+    //callback function 
+     var result =[55,52,1,3,4];
+     var reverseOrder = result.reverse();
+     console.log(reverseOrder);
+</script>
+
+
