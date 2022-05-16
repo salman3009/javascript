@@ -1,0 +1,15 @@
+<script>
+    var employee={
+        fullName:"akash",
+        age:33,
+        dob:"22/03/1990"
+    };
+    var keys = Object.keys(employee);
+    console.log(keys,keys[0]);
+    var values=Object.values(employee);
+    console.log(values);
+    for(var input in employee){
+        console.log(input);
+        console.log(employee[input]);
+    }
+</script>

@@ -1,0 +1,29 @@
+<script>
+
+    var salmanEmployee={
+        firstName:"salman",
+        lastName:"g",
+        age:55,
+        status:false,
+        salaryDetails:[4000,6000,892222,12000000],
+        address:{
+            doorNo:12,
+            location:"chennai"
+        },
+        setAge(input){
+            this.age= input;
+        },
+        getAge(){
+            return this.age;
+            //this is refer to current object
+        },
+        setAddress:function(){
+            return this.address.location;
+        }
+        };
+        salmanEmployee.setAge(44);
+        console.log(salmanEmployee.getAge());
+        console.log(salmanEmployee.setAddress());
+ 
+    
+    </script>
