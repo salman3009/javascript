@@ -1,0 +1,196 @@
+<!-- <script>
+    var input="salman";
+    var pattern = /salman/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="SALMAN";
+    var pattern = /salman/i;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+<!-- <script>
+    //start symbol ^
+    //end symbol $
+    var input="SALMAN";
+    var pattern = /^salman$/i;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+<!-- 
+<script>
+    var input="saz";
+    var pattern = /^[a-z][a-z][a-z]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="S";
+    var pattern = /^[A-Z]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="2";
+    var pattern = /^[0-9]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script>
+
+
+<script>
+    var input="$";
+    var pattern = /^[%$#]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="S";
+    var pattern = /^[A-Z]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="2";
+    var pattern = /^[0-9]$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    var input="salmansdfafasf";
+    var pattern = /^[a-z]{3,50}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    //alphanumeric with space
+    var input="99Salman 30 09";
+    var pattern = /^[A-Za-z0-9\s]{3,50}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    //* -- zero or more 
+    var input="ajaksdjfklasdjflkj";
+    var pattern = /^[a-z]*$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    //+ -- one or more 
+    var input="ajaksdjfklasdjflkj";
+    var pattern = /^[a-z]*$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+
+<!-- <script>
+    //+ -- one or more 
+    var input="ajaksdjfklasdjflkj";
+    var pattern = /^[a-z]*$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+
+
+<!-- <script>
+    //optional ?
+    var input="33";
+    var pattern = /^-?[0-9]+$/;
+    var result = pattern.test(input);
+    console.log(result);
+    input="-33";
+    result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+
+<!-- <script>
+    //. dot 
+    var input="9923cvdf2323";
+    var pattern = /^.+$/;
+    var result = pattern.test(input);
+    console.log(result);
+
+    var input=".";
+    var pattern = /^\.$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    // or | 
+    var input="Link";
+    var pattern = /^(L|Th)ink$/;
+    var result = pattern.test(input);
+    console.log(result);
+    input = "Think";
+    console.log(pattern.test(input));
+</script> -->
+
+
+<!-- <script>
+    // 10 digit number and first number should start with 7 or 8 or 9
+    var input="7892323134";
+    var pattern = /^(7|8|9){1}[0-9]{9}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+<!-- <script>
+    // salman@gmail.com
+     var input="salmanrrrtww@gmail.com";
+   // var input="sa33lman@g33mail.com";
+   // var input="22sTlman@gmail.com";
+    var pattern = /^.+@.{3,10}\..{2,10}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+<!-- <script>
+    // salman@gmail.com
+     var input="salmanrrrtww@gmail.com";
+   // var input="sa33lman@g33mail.com";
+   // var input="22sTlman@gmail.com";
+    var pattern = /^.+@.{3,10}\..{2,10}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script> -->
+
+
+
+<script>
+    // altest one small one capital and one digit
+     var input="aa2D323";
+    var pattern = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{2,15}$/;
+    var result = pattern.test(input);
+    console.log(result);
+</script>
