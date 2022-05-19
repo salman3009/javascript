@@ -1,0 +1,29 @@
+<!-- <script>
+    function addition(a,b){
+        return new Promise((yes,no)=>{
+            let result = a+b;
+            yes(result)
+        })
+    }
+
+    addition(33,33).then((result)=>{
+          console.log(result);
+    },(failure)=>{
+         console.log(failure);
+    })
+</script> -->
+
+<script>
+    function subtraction(a,b){
+        return new Promise((yes,no)=>{
+             no("some error");
+        })
+    }
+
+    subtraction(22,11).then((result)=>{
+        console.log(result);
+    },(failure)=>{
+         console.log(failure)
+    })
+
+</script>

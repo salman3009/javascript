@@ -1,0 +1,27 @@
+<script>
+    class GoogleForm{
+
+        constructor(fullName,phoneNumber,emailId){
+            this.fullName = fullName;
+            this.phoneNumber = phoneNumber;
+            this.emailId = emailId;
+        }
+
+        setFullName(firstName){
+           this.fullName = firstName;
+        }
+
+        getFullName(){
+            return this.fullName;
+        }
+
+    }
+
+    var salmanForm = new GoogleForm("",983434343,"salman@gmail.com");
+    console.log(salmanForm);
+    var akashForm = new GoogleForm("akash",9834343434,"akash@gmail.com");
+    console.log(akashForm);
+    salmanForm.setFullName("rajesh");
+    console.log(salmanForm);
+    console.log(salmanForm.getFullName());
+</script>

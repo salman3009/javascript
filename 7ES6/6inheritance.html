@@ -1,0 +1,35 @@
+<script>
+    class GoogleForm{
+
+        constructor(fullName,phoneNumber,emailId){
+            this.fullName = fullName;
+            this.phoneNumber = phoneNumber;
+            this.emailId = emailId;
+        }
+
+        setFullName(firstName){
+           this.fullName = firstName;
+        }
+
+        getFullName(){
+            return this.fullName;
+        }
+
+    }
+
+
+    class YoutubeForm extends GoogleForm{
+
+        constructor(fullName,phoneNumber,emailId,subscription){
+            super(fullName,phoneNumber,emailId);
+            this.subscription = subscription;
+        }
+    }
+
+    var salmanYouTubeForm = new YoutubeForm("salman",98232323,"salman444@gmail.com",false);
+    console.log(salmanYouTubeForm);
+    var salmanForm = new GoogleForm("salman",98232323,"salman444@gmail.com");
+    console.log(salmanForm);
+
+
+</script>

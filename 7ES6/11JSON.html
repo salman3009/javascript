@@ -1,0 +1,25 @@
+<script>
+    //JSON - Javascript object notation
+    var obj={
+        "fullName":"salman",
+        "age":26,
+        "salary":[33,44,45,22],
+        "address":{
+            "doorNo":22,
+            "location":"chennai"
+        },
+        "status":true
+    };
+
+    var address={
+        doorNo:12,
+        location:"chennai"
+    };
+
+    var result = JSON.stringify(address);
+    //convert javascript object into json
+    console.log(typeof result);
+    result = JSON.parse(result);
+    console.log(typeof result);
+
+</script>
